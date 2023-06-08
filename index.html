@@ -1,12 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+
 </head>
+
 <body>
-    
+
+ <header class="header">
+
+   <img src="logo.jpg" alt="my logo" class="logo">
+
+   <div class="navbar-button">
+
+     <button class="button">Home</button>
+
+     <button class="button">Our profil</button>
+
+     <button class="button">Portofolio</button>
+
+     <button class="button">Message Us</button>
+
+   </div>
+
+ </header>
+
+ 
+
+ <div id="hero-section" class="hero">
+
+     <p class="font-header1">Hi Fakih>_<,Welcome To My Website</p>
+
+     <p class="font-header2">ini adalah website latihan pertama</p>
+
+   </div>
+
+   
+
+ <div class="headquarters-section"/>
+
+   <fieldset>
+
+   <legend>Headquarters</legend>
+
+   <div class="wrapper">
+
+   <div class="headquarters-image-container"><div class="headquarters-image"></div><p>Jakarta</p>
+
+   </div>
+
+   <div class="headquarters-image-container"><div class="headquarters-image"></div><p>Bandung</p>
+
+   </div>
+
+   <div class="headquarters-image-container"><div class="headquarters-image"></div><p>Surabaya</p>
+
+   </div>
+
+   </div>
+
+ 
+
+ <div>
+
+    <form name="message-form" onsubmit="return validateForm()">
+
+      <fieldset>
+
+        <legend>Form Data</legend>
+
+ <table>
+
+  <tr>
+
+    <td>nama</td>
+
+    <td>:</td>
+
+    <td><input type="text" name="full-name"</td>
+
+  </tr>
+
+    <tr>
+
+    <td>Tanggal lahir</td>
+
+    <td>:</td>
+
+    <td><input type="date" name="birth-date"</td>
+
+  </tr>
+
+    <tr>
+
+    <td>Jenis kelamin</td>
+
+    <td>:</td>
+
+    <td><input type="radio" name="gender" value="Laki-laki">Laki-laki</input>
+
+      <input type="radio" name="gender" value="Perempuan">Perempuan
+
+      </input>
+
+    </td>
+
+  </tr>
+
+    <tr>
+
+    <td>Pesan</td>
+
+    <td>:</td>
+
+    <td><textarea name="message"></textarea>
+
+    </td>
+
+  </tr>
+
+ </table>
+
+   <button class="submit" type="submit" value="submit">submit</button>
+
+   </fieldset>
+
+   </form>
+
+        <div id="output-container">
+
+          <fieldset>
+
+            <legend>Output</legend>
+
+    <div class="output">
+
+      <form>
+
+       <table>
+
+        <tr>
+
+         <td>nama</td>
+
+         <td>:</td>
+
+         <td><span id="output-name"></span></td>
+
+         </tr>
+
+         <tr>
+
+         <td>tanggal lahir</td>
+
+          <td>:</td>
+
+          <td><span id="output-birtdate"></span></td>
+
+        </td>
+
+        <tr>
+
+         <td>jenis kelamin</td>
+
+         <td>:</td>
+
+         <td><span id="output-gender"></span></td>
+
+         </tr>
+
+         <tr>
+
+         <td>pesan</td>
+
+         <td>:</td>
+
+         <td><span id="output-message"></span></td>
+
+         </tr>
+
+       </table>
+
+        </form>
+
+    </fieldset>
+
+    </div>
+
+        </div>
+
+       <script src="/js/main.js" type="text/javascript"/>
+
 </body>
+
 </html>
+
+
+
+
+ 
+
